@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fd67865a05.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/CSS/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <h3 class="logo">Dalibor <span>Koenig</span></h3>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="big-title translate" data-speed="0.1">Web development doesn't <br>have to be a road to<br> nowhere.</h1>
+    <div class="background">
+      <img src="./assets/images/background/4/left.png" alt="" class="background-1 translate" data-speed="0.6">
+      <img src="./assets/images/background/4/right.png" alt="" class="background-2 translate" data-speed="0.7">
+      <img src="./assets/images/background/4/sun.png" alt="" class="sun translate" data-speed="0.2">
+      <img src="./assets/images/background//4/road.png" alt="" class="road translate" data-speed="0.1">
+      <img src="./assets/images/background/4/mountains-4.png" alt="" class="mountains-4 translate" data-speed="0.3">
+      <img src="./assets/images/background/4/mountains-3.png" alt="" class="mountains-3 translate" data-speed="0.2">
+      <img src="./assets/images/background//4/mountains-2.png" alt="" class="mountains-2 translate" data-speed="0.1">
+      <img src="./assets/images/background/4/mountains-1.png" alt="" class="mountains-1 translate" data-speed="0.3">
+    </div>
+  </header>
+
+  <section>
+    <div class="shadow"></div>
+    <div class="container-about">
+      <div class="content">
+        <h3 class="title">
+          About me
+          <div class="border"></div>
+        </h3>
+        <p class="text">My name is Dalibor Koenig and I am a marketing specialist turned <em><b>Web developer</b></em>. I have 15 years of experience managing marketing and web development projects. After 15 years of working in marketing I figured it was about time for a pivot and here I am now, working as a Full Stack Web developer. I am profficient in <b>HTML, CSS, SASS and Java Script.</b><br>Scroll on to see my projects</p>
+      </div>
+      <div class="imgContainer opacity">
+        <img src="./assets/images/profile_photo.jpg" alt="" style="border-radius: 50%; width: 80%; margin-left: 20%;">
+      </div>
+    </div>
+  </section>
+
+  <div class="photo-gallery col-12">
+    <div class="container-fluid col-12 p-5">
+      <div class="intro">
+        <h1 class="text-center pt-5">My projects</h2>
+      </div>
+      <div class="row photos mx-5">
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot 2021-03-04 10.38.24.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot 2021-03-04 10.38.24.png"></a></div>
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot 2021-03-04 10.40.59.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot 2021-03-04 10.40.59.png"></a></div>
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot 2021-03-04 10.41.31.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot 2021-03-04 10.41.31.png"></a></div>
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot 2021-03-04 10.40.38.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot 2021-03-04 10.40.38.png"></a></div>
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot 2021-03-04 10.43.41.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot 2021-03-04 10.43.41.png"></a></div>
+        <div class="col-sm-6 col-md-4 col-lg-4 gallery-item"><a href="assets/images/gallery/Screenshot from 2021-02-16 14-51-38.png" data-lightbox="photos"><img class="img-fluid w-100" src="assets/images/gallery/Screenshot from 2021-02-16 14-51-38.png"></a></div>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container contact-form">
+    <div class="contact-image">
+        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+    </div>
+    <form method="post">
+        <h3>Drop Me a Message</h3>
+       <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mb-md-3">
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                </div>
+                <div class="form-group mb-md-3">
+                  <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                </div>
+                <div class="form-group mb-md-3">
+                  <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="https://github.com/daliborkoenig" target="blank" class="animate__animated"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/daliborkoenig" target="blank" class="animate__animated"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.instagram.com/dalibor.koenig" target="blank" class="animate__animated"><i class="fab fa-instagram-square fa-2x"></i></a>
+      <a href="#" target="blank" class="animate__animated"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="#" target="blank" class="animate__animated"><i class="fab fa-stack-overflow fa-2x"></i></a>
+    </div>  
+  </footer>
+
+
+
+<script src="/assets/JS/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+</body>
+</html>
+
+
+
+        
+    
